@@ -1,11 +1,17 @@
 import styled from 'styled-components';
 
-const Container = styled.footer`
+interface Footer {
+  bgColor?: string;
+  color?: string;
+}
+
+const Container = styled.footer<Footer>`
 & {
-  background-color: #333;
+  /* background-color: #333; */
+  background-color: ${({ bgColor }) => bgColor || '#333'};
   width: 100%;
   height: 30px;
-  color: white;
+  color: ${({ color }) => color || 'white'};
   display: flex;
   justify-content: center;
   align-items: center;
