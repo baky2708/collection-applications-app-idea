@@ -12,17 +12,18 @@ const Container = styled.button<ButtonProps>`
   opacity: 0.8;
   width: auto;
   height: 41px;
-  padding: 6px 12px;
+  padding: 6px 16px;
   border: 0;
   border-radius: 4px;
   color: white;
-  font-size: 16px;
+  font-size: 18px;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-right: 4px;
   margin-top: 10px;
   max-width: 100px;
+  cursor: pointer;
 }
 
 img {

@@ -16,9 +16,9 @@ const Button: React.FC<ButtonProps> = ({
 }) => {
   const getIcon = () => {
     switch (icon) {
-      case 'convert': return <img src={iconSwap} alt="icon-pencil" />;
+      case 'convert': return <img src={iconEqual} alt="icon-pencil" />;
       case 'reset': return <img src={iconReset} alt="icon-person" />;
-      case 'swap': return <img src={iconEqual} alt="icon-person" />;
+      case 'swap': return <img src={iconSwap} alt="icon-person" />;
       default: return '';
     }
   };

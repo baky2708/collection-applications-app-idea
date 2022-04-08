@@ -51,6 +51,12 @@ const ConvertorInputs = () => {
           </p>
           <input />
         </label>
+        <label htmlFor="bin">
+          <p>
+            Result
+          </p>
+          <input />
+        </label>
         <ContainerButtons>
           <Button color="#28a745" icon="convert">
             Convert
