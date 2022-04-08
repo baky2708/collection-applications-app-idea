@@ -4,6 +4,7 @@ import {
   InputContainer,
   Convertor,
 } from './styles';
+import Button from '../Button';
 
 const ConvertorInputs = () => {
   const [selected, setSelected] = useState('Binary');
@@ -49,6 +50,9 @@ const ConvertorInputs = () => {
           </p>
           <input />
         </label>
+        <Button color="#28a745" icon="convert">
+          Convert
+        </Button>
       </Convertor>
     </ConvertorContainer>
   );
