@@ -1,35 +1,5 @@
 import styled from 'styled-components';
 
-export const FutureAd = styled.div`
-align-self: center;
-margin: 0 auto;
-`;
-
-export const Container = styled.div`
-& {
-  margin-top: 20px;
-  background-color: white;
-  display: flex;
-  /* justify-content: space-around; */
-  margin: 0 50px;
-  height: 85vh;
-}
-
-h1 {
-  font-size: 24px;
-  color: #333;
-  margin-bottom: 10px;
-}
-
-@media (max-width: 600px) {
-  flex-direction: column;
-  margin-top: 5px;
-  ${FutureAd} {
-    height: 30px;
-  }
-}
-`;
-
 export const ConvertorContainer = styled.div`
   padding: 10px;
 `;
