@@ -73,4 +73,15 @@ span {
     width: 100%;
   }
 }
+
+`;
+export const ContainerButtons = styled.div`
+  & {
+    display: flex;
+  }
+
+  @media (max-width: 410px) {
+    flex-direction: column;
+    align-items: center;
+  }
 `;

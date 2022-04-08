@@ -3,6 +3,7 @@ import {
   ConvertorContainer,
   InputContainer,
   Convertor,
+  ContainerButtons,
 } from './styles';
 import Button from '../Button';
 
@@ -50,9 +51,17 @@ const ConvertorInputs = () => {
           </p>
           <input />
         </label>
-        <Button color="#28a745" icon="convert">
-          Convert
-        </Button>
+        <ContainerButtons>
+          <Button color="#28a745" icon="convert">
+            Convert
+          </Button>
+          <Button color="#6c757d" icon="reset">
+            Reset
+          </Button>
+          <Button color="#6c757d" icon="swap">
+            Swap
+          </Button>
+        </ContainerButtons>
       </Convertor>
     </ConvertorContainer>
   );
