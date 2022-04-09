@@ -10,17 +10,15 @@ import Bin2Dec from '../collection-applications/Bin2Dec';
 import ResetCss from '../GlobalStyles/ResetCss';
 import GlobalStyles from '../GlobalStyles';
 
-function AppRoutes() {
-  return (
-    <BrowserRouter>
-      <ResetCss />
-      <GlobalStyles />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/application/Bin2Dec" element={<Bin2Dec />} />
-      </Routes>
-    </BrowserRouter>
-  );
-}
+const AppRoutes = () => (
+  <BrowserRouter>
+    <ResetCss />
+    <GlobalStyles />
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/application/Bin2Dec" element={<Bin2Dec />} />
+    </Routes>
+  </BrowserRouter>
+);
 
 export default AppRoutes;
